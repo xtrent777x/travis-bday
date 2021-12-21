@@ -1,0 +1,81 @@
+body {
+  background: black;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#travis-pic {
+  height: 450px;
+  padding: 30px 0;
+}
+
+#birthday-text {
+  font-size: 100px;
+  color: blue;
+}
+
+#pilot {
+  float: left;
+  color: blue;
+  position: absolute;
+}
+
+#pilot img {
+  width: 400px;
+}
+
+a {
+  color: red;
+}
+
+#hate {
+  right: 60px;
+  position: absolute;
+  width: 300px;
+  color: white;
+}
+
+#hate img {
+  height: 200px;
+}
+
+#hate p {
+  margin: 20;
+  padding: 10;
+}
+
+#hate h2 {
+  display: block;
+}
+
+
+
+.red {
+  border-bottom: 1px solid white;
+  color: blue;
+}
+
+.clear {
+  clear: both;
+  padding-top: 10px;
+}
+
+.blink {
+  animation: blink 0.8s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
